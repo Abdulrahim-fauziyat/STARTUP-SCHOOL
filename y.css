@@ -1,0 +1,328 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+body{
+    background-image:url(img/world_map.svg);
+
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: #d4cfcf;
+    overflow-x: hidden;
+}
+
+   .header{
+    margin-top: 100px;
+    margin-left: 100px;
+   }
+  .intro{ 
+    display: flex;
+    align-items: center;
+
+  }
+  .intro img{
+    width:60px;
+    height: 60px;
+  }
+
+  .intro h1{
+    margin-left: 15px ;
+    font-weight: 700;
+    font-size: 40px;
+  }
+
+  .learn{
+    color: #1a1a1a;
+    font-size: 40px;
+    line-height: 1.5;
+    width: 55%;
+     margin-bottom: 27px;
+  }
+
+  .course{
+    color: #fb651e;
+    font-weight: 700;
+    
+}
+
+.online-course p{
+    color: #716f6f;
+    font-size:24px;
+    line-height: 1.5;
+    margin-bottom: 55px;
+    width:50%;
+    background-color: none;
+}
+    a button{
+    width:150px;
+    height: 60px;
+    border-radius: 5px;
+    border:none;
+    background-color: #fb651e;
+    color:#fff;
+    } 
+ a button:hover{
+    background-color: #fb651e;
+ }
+ 
+   .signin{
+    color: #fb651e;
+    margin-bottom: 55px;
+   }
+   .signup{
+    margin-bottom: 55px;
+   }
+    
+   .get_advised{
+    font-size: 24px;
+    line-height: 1.5;
+    margin-top: 55px;
+   }
+
+    
+       
+      .how-itworks{
+        background-color: #292519;
+        color: #e1e1e1;
+        letter-spacing: -.17;
+        display: flex;
+        flex-direction: column;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 1.5;
+        padding: 50px 100px;
+        margin: 0 -100px;
+      }
+
+      .school-works h1,.startupschool-for h1{
+        color:#fb651e;
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 0;
+
+      }
+      .school-works,.startupschool-for{
+        margin-left: 100px;
+      }
+      .school-works li ,.startupschool-for li{
+        color:#fff;
+        margin: 10px 0;
+        font-size: 24px;
+      }
+
+      li span{
+        margin-left: 34px;
+      }
+  
+      .curriculum{
+    box-sizing: border-box;
+    line-height: 1.5;
+    width: 55%;
+     margin-top: 5px;
+     margin-right: 100px;
+     margin-left: 180px;
+     flex-direction: column;
+      }
+
+      
+    .YC{
+      margin-top: 100px;
+      margin-left: 170px;
+      color:#1a1a1a;
+      font-size: 30px;
+      display: flex;
+      
+      
+    }
+    .build{
+      color: #716f6f;
+    font-size:25px;
+    line-height: 1.5;
+    margin-bottom: 55px;
+    display: inline-flex;
+    text-align: center;
+
+     
+     }
+    
+
+     .grid-container{
+      display:grid;
+      grid-template-columns: auto auto auto;
+      align-content: center;
+      margin: 35px auto;
+      gap: 10px; 
+     }
+
+     .grid-item{
+      height: 350px;
+    }
+
+    .grid-item img{
+      width:300px;
+      height: 250px;
+      border-radius:10px ;
+      margin-right: 40px;
+    }
+     
+
+     .grid-item h3,p{
+      background-color: #e1e1e1;
+      margin-right:40px;
+    }
+
+     .part-of-startup{
+      background-color: #292519;
+       color :white;
+        letter-spacing: -.17px;
+        display: flex;
+        flex-direction: column;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 1.5;
+        padding: 50px 100px;
+        margin: 0 -100px;
+        margin-left: 0px;
+        margin-top: 50px;
+        margin-right: 0px;
+        margin-bottom: 50px; 
+     }
+     
+     .part-of-startup h1{
+      color: #fb651e;
+     }
+      .co-heading h1{
+      margin: 55px,0;
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 50px;
+
+      }
+    /* .co-founder{ 
+     display: block; 
+     align-items: center; 
+     justify-content: center; 
+      width: 100%;  
+    
+    } */
+    .co-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;}
+
+
+    .icon-profile{
+       display: flex;
+    } 
+
+    .icon-profile h3{
+        margin-left: 15px;
+        color: #1a1a1a;
+    }
+
+     
+     .icon-profile i{ 
+     color:#fb651e;
+     font-size: 25px;
+     } 
+    
+     .create-profile,.see-potential,.connect{
+     background-color: #fff;
+      width:350px ; 
+      height:150px;
+      border-radius: 10px; 
+      display: block;
+      align-items: center;
+      justify-content: center; 
+      /* margin-left: 25px; */
+      margin-bottom: 50px;
+      }
+
+          .left-arrow{
+          font-size:30px;
+          /* margin-left:5px; */
+          } 
+    
+          .line{
+          width:80%;
+          height: 2px;
+          margin-top: 10px;
+          padding: 0 20px;
+          text-align: left;
+          margin-left: 20px;
+          background-color: #fb651e; 
+          }
+
+
+          .profile-lower{
+            margin-top:10px ;
+            padding: 0 20px;
+            font-style: italic;
+            text-align: left;
+
+          }
+
+          .about{
+            color:#fb651e;
+            margin-top: 80px;
+            margin-left: 450px;
+            margin-bottom: 250px;
+            font-weight:bolder;
+           }
+
+          .from{
+            margin-top: 100px;
+            margin-bottom: 100px;
+            margin-left:400px ;
+          
+          
+          }
+         .signing{
+           background-color: #fb651e;
+           /* color: #fb651e; */
+           width: 35px;
+           height: 12px;
+           margin-left: 540px;
+           border-radius: 10px;
+         }
+         a button:hover{
+         background-color: #fb651e;
+         color:#fb651e;
+        
+         }
+
+        .combinator{
+          display: flex;
+          background-color: #292519;
+          margin-top: 100px;
+          width: 1500px;
+          height: 345px;
+        }
+        .combinator ul{
+          list-style-type:none;
+          margin-left: 500px;
+          display: flex;
+          font-size: 20px;
+          justify-content: center;
+          margin-top: 50px;
+        }
+        
+         .Faq,.contact,.view {
+           margin-right: 50px;
+           margin-bottom: 10px;
+         }
+            
+        .sign-down{
+          margin-left: 300px;
+          margin-top: 50px;
+          
+        }
+        
+        a button:hover{
+          background-color: #fb651e;
+        color: #fb651e;}
